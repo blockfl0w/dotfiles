@@ -6,8 +6,8 @@ VSCODE_USER_DIR="$HOME/.vscode-server/data/Machine"
 mkdir -p "$VSCODE_USER_DIR"
 
 # Copy your settings
-cp settings.json "$VSCODE_USER_DIR/"
-cp keybindings.json "$VSCODE_USER_DIR/"
+cp ./vscode/settings.json "$VSCODE_USER_DIR/"
+cp ./vscode/keybindings.json "$VSCODE_USER_DIR/"
 cp -r ./vscode/snippets "$VSCODE_USER_DIR/" 2>/dev/null
 
 # Install extensions (may need VS Code server running)
