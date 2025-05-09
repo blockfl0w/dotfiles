@@ -1,0 +1,91 @@
+{
+  "workbench.colorTheme": "Dracula Theme",
+  "terminal.integrated.env.windows": {},
+  "console-ninja.featureSet": "Community",
+  "workbench.iconTheme": "icons",
+  "svelte.enable-ts-plugin": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[svelte]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.svelte": "svelte"
+  },
+  "prettier.documentSelectors": ["**/*.{svelte}"],
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "explorer.confirmDelete": false,
+  "git.autofetch": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "rust": false
+  },
+  "editor.stickyTabStops": true,
+  "editor.stickyScroll.enabled": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "gitlens.codeLens.scopes": ["document", "containers"],
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "[rust]": {
+    "editor.defaultFormatter": "jinxdash.prettier-rust"
+  },
+  "git.enableSmartCommit": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.indentSize": 4,
+  "git.confirmSync": false,
+  "workbench.sideBar.location": "right",
+  "vue.server.hybridMode": true,
+  "stripe.cliInstallPath": "C:\\Program Files\\stripe\\stripe.exe",
+  "dart.flutterSdkPath": "C:\\Users\\sassy\\flutter",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "editor.wordWrap": "on",
+  "editor.semanticHighlighting.enabled": true,
+  "gitlens.advanced.messages": {
+    "suppressLineUncommittedWarning": true
+  },
+  "redhat.telemetry.enabled": false,
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "xml.symbols.maxItemsComputed": 1000000,
+  "[python]": {
+    "editor.formatOnSave": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "gitlens.codeLens.symbolScopes": ["!Module"],
+    "editor.formatOnType": true,
+    "editor.wordBasedSuggestions": "off",
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "gitlens.home.preview.enabled": false,
+  "remote.SSH.remotePlatform": {
+    "159.69.19.38": "linux",
+    "*.gitpod.io": "linux",
+    "blockfl0w-chipshopdesig-4whv8rgr5gz.vss.gitpod.io": "linux",
+    "coder-vscode.coder.blockflow.dev--blockfl0w--testing": "linux"
+  },
+  "cSpell.userWords": [
+    "APPWRITE",
+    "BLOCKFLOW",
+    "pocketbase",
+    "Sonner",
+    "superforms",
+    "Zenrith"
+  ],
+  "svelte.plugin.svelte.format.config.singleQuote": true,
+  "remote.SSH.defaultExtensions": ["gitpod.gitpod-remote-ssh"],
+  "terminal.integrated.env.linux": {},
+  "github.copilot.selectedCompletionModel": "gpt-4o-copilot",
+  "editor.tabSize": 2,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "remote.SSH.connectTimeout": 1800,
+  "[glsl]": {
+    "editor.defaultFormatter": "raczzalan.webgl-glsl-editor"
+  }
+}
